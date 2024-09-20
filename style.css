@@ -26,7 +26,56 @@ body{
     background-image:url(maps/cardbackground.webp);
     background-size:100%;
 }
-.card:hover{
+#first:hover{
+    transform:scale(1.05);
+    background-image:url(maps/possible.webp) ;
+    background-size: 100%;
+    transform: rotate(1turn);
+    transition: all 0.5s
+}
+#second:hover{
+    transform:scale(1.05);
+    background-image:url(maps/possible.webp) ;
+    background-size: 100%;
+    transition: all 0.5s
+}
+#third:hover{
+    transform:scale(1.05);
+    background-image:url(maps/possible.webp) ;
+    background-size: 100%;
+    transition: all 0.5s
+}
+#fourth:hover{
+    transform:scale(1.05);
+    background-image:url(maps/possible.webp) ;
+    background-size: 100%;
+    transition: all 0.5s
+}
+#fifth:hover{
+    transform:scale(1.05);
+    background-image:url(maps/possible.webp) ;
+    background-size: 100%;
+    transition: all 0.5s
+}
+#sixth:hover{
+    transform:scale(1.05);
+    background-image:url(maps/possible.webp) ;
+    background-size: 100%;
+    transition: all 0.5s
+}
+#seventh:hover{
+    transform:scale(1.05);
+    background-image:url(maps/possible.webp) ;
+    background-size: 100%;
+    transition: all 0.5s
+}
+#eighth:hover{
+    transform:scale(1.05);
+    background-image:url(maps/possible.webp) ;
+    background-size: 100%;
+    transition: all 0.5s
+}
+#ninth:hover{
     transform:scale(1.05);
     background-image:url(maps/possible.webp) ;
     background-size: 100%;
