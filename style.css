@@ -13,6 +13,13 @@ body{
     margin: 2rem auto;
 }
 
+.text{
+    text-align: center;
+    opacity:0%;
+    background-image: url(maps/possible2.jpg);
+    margin:100px;
+}
+
 .card{
     width:30%;
     height: 600px;
@@ -25,62 +32,46 @@ body{
     margin-top:50px;
     background-image:url(maps/cardbackground.webp);
     background-size:100%;
+    transition: all 0.5s
+}
+.card:hover{
+    transform:scale(1.05);
+    background-image:url(maps/possible2.jpg) ;
+    background-size: 100%;
+
 }
 #first:hover{
-    transform:scale(1.05);
-    background-image:url(maps/possible.webp) ;
-    background-size: 100%;
     transform: rotate(1turn);
-    transition: all 0.5s
 }
+/*
 #second:hover{
-    transform:scale(1.05);
-    background-image:url(maps/possible.webp) ;
-    background-size: 100%;
-    transition: all 0.5s
 }
+*/
 #third:hover{
-    transform:scale(1.05);
-    background-image:url(maps/possible.webp) ;
-    background-size: 100%;
-    transition: all 0.5s
+    transform: rotate(15deg);
 }
 #fourth:hover{
-    transform:scale(1.05);
-    background-image:url(maps/possible.webp) ;
-    background-size: 100%;
-    transition: all 0.5s
+    .text{opacity: 100%;}
+}
+/*
+#fourth:hover{
+
 }
 #fifth:hover{
-    transform:scale(1.05);
-    background-image:url(maps/possible.webp) ;
-    background-size: 100%;
-    transition: all 0.5s
+
 }
 #sixth:hover{
-    transform:scale(1.05);
-    background-image:url(maps/possible.webp) ;
-    background-size: 100%;
-    transition: all 0.5s
+
 }
 #seventh:hover{
-    transform:scale(1.05);
-    background-image:url(maps/possible.webp) ;
-    background-size: 100%;
-    transition: all 0.5s
+
 }
 #eighth:hover{
-    transform:scale(1.05);
-    background-image:url(maps/possible.webp) ;
-    background-size: 100%;
-    transition: all 0.5s
+
 }
 #ninth:hover{
-    transform:scale(1.05);
-    background-image:url(maps/possible.webp) ;
-    background-size: 100%;
-    transition: all 0.5s
 }
+*/
 
 
 .imgcard{
