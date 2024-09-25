@@ -21,6 +21,7 @@ body{
 }
 .header{
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.12);
 }
 
 #jettknife{
@@ -34,7 +35,7 @@ body{
 
     }
     100%{
-        transform:translateX(calc(100cqw - 100%));
+        transform:translateX(calc(100vw - 100%));
     }
 }
 .card{
@@ -50,7 +51,7 @@ body{
     background-image:url(maps/cardbackground.webp);
     background-size:100%;
     transition: all 0.5s;
-    box-shadow: 20px 20px rgba(0, 0, 0, 0.443);
+    box-shadow: 40px 40px 15px rgba(0, 0, 0, 0.61);
 }
 .card:hover{
     transform:scale(1.05);
@@ -61,10 +62,6 @@ body{
 #first:hover{
     transform: rotate(1turn);
 }
-/*
-#second:hover{
-}
-*/
 #third:hover{
     transform: rotate(15deg);
 }
@@ -72,27 +69,16 @@ body{
     transform: skew(5deg, 5deg);
 }
 #fifth:hover{
-        transform: translate(50px, -50px);
+    transform: scale(1.2) translate(50px, -50px);
 }
-/*
-#sixth:hover{
 
-}
-#seventh:hover{
-
-}
-#eighth:hover{
-
-}
-#ninth:hover{
-}
-*/
 @media screen and (max-width: 800px) {
     .container{
         flex-direction: column;
     }
     .card{
-        width: 60%
+        width: 80%;
+        height: auto;
     }
 }
 
