@@ -10,18 +10,27 @@ body{
     align-items: center;
     justify-content: space-around;
     width:100%;
-    margin: 2rem auto;
+}
+.header{
+    width: 100%;
 }
 
-.text{
-    text-align: center;
-    opacity:0%;
-    background-image: url(maps/possible2.jpg);
-    margin:100px;
+#jettknife{
+    animation: 2s linear scroll infinite;
+    width:100px ;
+    height:100px ;
 }
 
+@keyframes scroll {
+    0%{
+
+    }
+    100%{
+        transform:translateX(calc(100cqw - 100%));
+    }
+}
 .card{
-    width:30%;
+    width:21%;
     height: 600px;
     border: 2px solid black;
     border-radius: 3px;
@@ -32,7 +41,8 @@ body{
     margin-top:50px;
     background-image:url(maps/cardbackground.webp);
     background-size:100%;
-    transition: all 0.5s
+    transition: all 0.5s;
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.443);
 }
 .card:hover{
     transform:scale(1.05);
@@ -51,15 +61,12 @@ body{
     transform: rotate(15deg);
 }
 #fourth:hover{
-    .text{opacity: 100%;}
-}
-/*
-#fourth:hover{
-
+    transform: skew(5deg, 5deg);
 }
 #fifth:hover{
-
+        transform: translate(50px, -50px);
 }
+/*
 #sixth:hover{
 
 }
@@ -72,7 +79,14 @@ body{
 #ninth:hover{
 }
 */
-
+@media screen and (max-width: 800px) {
+    .container{
+        flex-direction: column;
+    }
+    .card{
+        width: 60%
+    }
+}
 
 .imgcard{
 /*     width:26%; */
